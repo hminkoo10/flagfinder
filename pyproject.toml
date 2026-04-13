@@ -1,0 +1,22 @@
+[project]
+name = "flagfinder"
+version = "0.1.0"
+description = "A tiny utility to find CTF-style flags like DH{...} in strings"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+  { name = "Hyunmin Koo", email = "hminkoo10@naver.com" }
+]
+keywords = ["ctf", "flag", "regex", "parser", "security"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/hminkoo10/flagfinder"
+Repository = "https://github.com/hminkoo10/flagfinder"
+Issues = "https://github.com/hminkoo10/flagfinder/issues"
